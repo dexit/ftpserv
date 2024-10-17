@@ -3,11 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 const ftpServer = new FtpSrv({
-    url: 'ftp://10.10.20.108:1337',  // Use your internal server IP
+    url: 'ftp://ftpserv.vercel.app:1337',  // Use your internal server IP
     anonymous: true,
     greeting: 'Welcome to the FTP server!',
     logging: 'basic',
-    pasv_url: '10.10.20.108',  // Set this to your server's accessible IP address or hostname
+    pasv_url: 'ftpserv.vercel.app',  // Set this to your server's accessible IP address or hostname
     pasv_min: 1024,            // Set a range for passive mode ports
     pasv_max: 1048,
   });
