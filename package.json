@@ -1,0 +1,19 @@
+{
+  "name": "jsftpd-example",
+  "version": "1.0.0",
+  "description": "Minimal FTP server example using jsftpd library",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ftp-srv": "^4.6.3",
+    "jsftpd": "1.2.2",
+    "net": "^1.0.2",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
